@@ -1,0 +1,23 @@
+{
+  "entryFile": "server/app.ts",
+  "noImplicitAdditionalProperties": "throw-on-extras",
+  "controllerPathGlobs": ["server/**/*.controller.ts"],
+  "spec": {
+    "outputDirectory": "dist/server",
+    "specVersion": 3
+  },
+  "ignore": ["**/node_modules/**"],
+  "basePath": "/api/v1",
+  "swagger": {
+    "outputDirectory": "./dist",
+    "entryFile": "./server/app.ts",
+    "host": "localhost:3000",
+    "basePath": "/api/v1"
+  },
+  "routes": {
+    "basePath": "/api/v1",
+    "routesDir": "./server/routes",
+    "entryFile": "./server/app.ts",
+    "middleware": "express"
+  }
+}

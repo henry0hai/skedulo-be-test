@@ -8,6 +8,16 @@
 - Output
   - List of optimizer performance => `schedules`
 
+### Detail
+
+Write a program for Sally that takes a list of Performance objects as input and produces Sally’s optimal schedule. 
+
+An optimal schedule meets the following criteria: 
+1. Sally wants to see the best performance at any given time. This may mean cutting one event short to see a higher priority performance, then returning to the original later. 
+2. You can assume Sally has a teleportation device and can travel between stages instantaneously! 
+3. If two performances starting at the same time have the same priority, Sally is happy to go to either one. 
+4. There may also be gaps where no performances are on. 
+
 ## Solutions
 
 ### Generic
